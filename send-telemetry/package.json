@@ -1,0 +1,19 @@
+{
+  "name": "send-telemetry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dt-send-property.js",
+  "scripts": {
+    "start": "node ./dt-send-property.js"
+  },
+  "author": "ruifelixpereira",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/digital-twins-core": "^1.1.0",
+    "@azure/identity": "^3.1.3",
+    "dotenv": "^16.0.3",
+    "set-interval-async": "^3.0.3",
+    "smartinterval": "^1.0.1",
+    "uuid": "^9.0.0"
+  }
+}
